@@ -142,7 +142,7 @@ for i = 1:19
     
 end
 table = array2table(new_mtrx);
-table.Properties.VariableNames(1:2) = {'locs_n170','peaks_n170'};
+table.Properties.VariableNames(1:2) = {'locs_n170','peaks_n170'}; % table of design matix is created
 data = [T table];
 clearvars -except data T locs peaks
 data.('locs_n170') = data.(5)./275;
