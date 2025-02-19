@@ -9,6 +9,7 @@ This repository contains the code used for the paper:
 This code implements the analyses and models discussed in the paper, including the Generalised Linear Mixed Effects (GLME) model and EEG data processing.
 
 **Features:**
+
 EEG data preprocessing
 
 Statistical analysis using GLME
