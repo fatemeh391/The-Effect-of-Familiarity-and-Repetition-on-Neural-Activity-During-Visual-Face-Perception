@@ -44,7 +44,7 @@ for P = 1:n_participants
     for conds = 1:n_conditions
         for ch = 1:n_chans
             % P110, it is in column 1
-            [pks,loc] = findpeaks(squeeze(ERP(P,conds,ch,1:40)));
+            [pks,loc] = findpeaks(squeeze(ERP(P,conds,ch,1:42)));
             indices = find(loc<25);
             loc(indices) = [];
             pks (indices) = [];
